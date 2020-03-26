@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Home_page</title>
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <style>
+        body {
+            background-color: #45A29E;
+            background-image: none;
+        }
+        h1 {
+            background-color: salmon;
+            background-position: initial;
+            width: 90vh;
+            height: 80vh;
+            margin-top: 10%;
+            margin-left: 55%;
+            font-family: 'Courier New', Courier, monospace;
+            font-size: 40px;
+            color: black;
+        }
+      
+        .MOTOR {
+            background-image: none;
+            text-emphasis: center;
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 65%;
+            margin-top: 23%;
+        }
+        #p1 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 75%;
+            margin-left: 60%;
+            color: black;
+        }
+        .btn {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 80%;
+            margin-left: 65%;
+            padding: 1cm, 1cm, 1cm, 1cm;
+            background-color: none;
+
+        }
+        h2 {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 75%;
+            margin-left: 110%;
+            font-size: 16px;
+            color: black;
+            margin-right: 5%;
+            padding: 5px, 5px, 5px, 5px;
+        }
+        .select {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 115%;
+            margin-top: 75%;
+           
+        }
+        .show {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 115%;
+            margin-top: 85%;
+            
+        }
+        .reset {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-left: 128%;
+            margin-top: 85%;
+        }
+        .gen {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 80%;
+            margin-left: 68%;
+        }
+        #randomcolor {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin-top: 78%;
+            margin-left: 120%;
+        }
+    </style>
+</head>
+<body>
+    <div class="element">
+        <div class="home">
+            <h1>Motorbike Color Changer</h1>
+            <img class="MOTOR" src="img/motor.png" alt="motor">
+            <p id="p1">Generate Random Color</p>
+        </div>
+        <br>
+        </div>
+        <div class="specific">
+            <h2>Generate Specific Color</h2>
+            <button class="gen" onclick="Generate()">Generate</button>
+            <select name="" id="randomcolor">
+                <option value="Blue">Blue</option>
+                <option value="Gray">Gray</option>
+                <option value="Yellow">Yellow</option>
+                <option value="Green">Green</option>
+                <option value="Black">Black</option>
+            </select>
+        </div>
+        <br> 
+        <div class="SHOW">
+            <button class="show" onclick="Show()">Show</button>
+        </div>
+        <br>
+        <div class="RESET">
+            <button class="reset" onclick="Reset()">Reset</button>
+        </div>
+    </div>
+    <script src="js/jquery-3.3.1.slim.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/bootstrap.js"></script>
+    <script src="js/bootstrap.bundle.js"></script>
+    <script src="js/main.js"></script>
+
+   
+</body>
+</html>
